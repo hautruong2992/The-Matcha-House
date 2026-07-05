@@ -43,3 +43,47 @@ body{
 .hero a:hover{
     background:#2D7045;
 }
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 60px;
+    background:white;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    position:sticky;
+    top:0;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:12px;
+}
+
+.logo img{
+    width:45px;
+}
+
+.logo span{
+    font-size:22px;
+    font-weight:bold;
+    color:#1F5132;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+    margin:0;
+    padding:0;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    font-weight:600;
+}
+
+nav a:hover{
+    color:#1F5132;
+}
